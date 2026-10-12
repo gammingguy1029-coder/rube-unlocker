@@ -59,8 +59,11 @@ lint.xml
 
 # Kotlin
 *.kotlin.metadata
-*.kt
 
 # External tools
 .externalNativeBuild
 .cxx
+
+# Gradle wrapper
+!gradle/wrapper/gradle-wrapper.properties
+gradle/wrapper/gradle-wrapper.jar
