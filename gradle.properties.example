@@ -1,0 +1,12 @@
+# Rube Aura Checker - Configuration
+# Copy this file to gradle.properties and fill in your values
+# DO NOT COMMIT gradle.properties with real credentials
+
+# Supabase Configuration
+# Get these from your Supabase project settings (Project URL and anon key)
+SUPABASE_URL=https://your-project.supabase.co
+SUPABASE_ANON_KEY=your-anon-key-here
+
+# Set to "true" for development without real Supabase backend
+# Set to "false" for production with real Supabase
+SUPABASE_TEST_MODE=true

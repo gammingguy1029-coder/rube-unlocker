@@ -1,0 +1,66 @@
+# Built application files
+*.apk
+*.aab
+
+# Files about the dex transformation
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+
+# Gradle files
+.gradle/
+build/
+# Ignore Gradle wrapper config
+# wrapper/
+# Actually, we want to keep the wrapper, so we don't ignore it
+# But we ignore the wrapper's cached properties and binaries
+wrapper/gradle-wrapper.properties
+# No! We want to keep the wrapper properties. Let's adjust.
+
+# Actually, we want to keep the wrapper in the repo, so we don't ignore the wrapper folder.
+# But we do ignore the cached wrapper properties and the distributed gradle.
+# However, the wrapper properties are version controlled, so we don't ignore them.
+# The distributed gradle in wrapper/dists is not version controlled, so we ignore it.
+wrapper/dists/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# NDK
+obj/
+
+# Excel converter output (.xls)
+*.xls
+
+# Studio generated files under .idea
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Log files
+*.log
+
+# Android Studio Navigator navigation files
+navigator.xml
+
+# Android Studio release 1.1 onward
+.caches
+
+# Lint
+lint/
+lint.xml
+
+# Kotlin
+*.kotlin.metadata
+*.kt
+
+# External tools
+.externalNativeBuild
+.cxx

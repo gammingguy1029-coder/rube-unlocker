@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Rube Aura Checker</string>
+    <string name="full_name">Full Name</string>
+    <string name="school_name">School Name</string>
+    <string name="roll_number">Roll Number</string>
+    <string name="placeholder_full_name">Enter your full name</string>
+    <string name="placeholder_school_name">Enter your school name</string>
+    <string name="placeholder_roll_number">Enter your roll number</string>
+    <string name="consent_disclosure">I consent to my registration data being stored securely and visible only to the app owner.</string>
+    <string name="register">Register</string>
+    <string name="skip_registration">Skip registration (dev only)</string>
+    <string name="start_scan">START SCAN</string>
+    <string name="home_tagline">Aura Detection System</string>
+    <string name="home_disclaimer">For entertainment purposes only. Results are generated randomly within a positive range.</string>
+    <string name="scanner_title">Scanning...</string>
+    <string name="scanning">Analyzing aura field…</string>
+    <string name="scan_complete">Scan complete!</string>
+    <string name="ready_to_scan">Ready to scan</string>
+    <string name="aura_score_label">AURA SCORE</string>
+    <string name="cancel">Cancel</string>
+    <string name="scan_again">Scan Again</string>
+    <string name="go_home">Go Home</string>
+    <string name="perfect_aura_message">PERFECT AURA ACHIEVED!</string>
+    <string name="share_result">Share Result</string>
+    <!-- Owner mode strings -->
+    <string name="owner_access">Owner Access</string>
+    <string name="enter_pin">Enter PIN</string>
+    <string name="pin">PIN</string>
+    <string name="pin_hint">4-digit owner PIN</string>
+    <string name="unlock">Unlock</string>
+    <string name="pin_warning">This PIN is client-side only and not secure.</string>
+    <string name="attempts_remaining">%d attempt(s) remaining</string>
+    <string name="owner_title">OWNER MODE</string>
+    <string name="owner_aura_label">OWNER AURA</string>
+    <string name="owner_mode_disclaimer">Owner mode reveals administrative data. This is a demonstration only.</string>
+    <string name="back_to_home">Back to Home</string>
+    <!-- Owner Mode Screen strings -->
+    <string name="owner_mode_title">Owner Mode</string>
+    <string name="enter_owner_pin">Enter Owner PIN</string>
+    <string name="owner_pin_hint">Enter your 4-digit PIN to access admin features</string>
+    <string name="pin_label">PIN</string>
+    <string name="enter_four_digit_pin">••••</string>
+    <string name="authenticate">Authenticate</string>
+    <string name="search_registrations">Search Registrations</string>
+    <string name="search_by_name_or_school">Name, school, or roll number</string>
+    <string name="filter_by_school">Filter by School</string>
+    <string name="no_registrations_found">No Registrations Found</string>
+    <string name="no_registrations_subtext">There are no registrations matching your search criteria.</string>
+    <string name="school_label">School:</string>
+    <string name="roll_number_label">Roll:</string>
+    <string name="delete">Delete</string>
+    <!-- History Screen strings -->
+    <string name="history_title">Scan History</string>
+    <string name="history_scan_history">Scan History</string>
+    <string name="history_scans_total">scans total</string>
+    <string name="history_perfect_aura_only">Perfect Aura Only</string>
+    <string name="history_no_scans">No Scans Yet</string>
+    <string name="history_no_scans_subtext">Your scan history will appear here after you complete scans.</string>
+    <string name="history_date_label">Date:</string>
+    <string name="history_clear_all">Clear All History</string>
+    <!-- Settings Screen strings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_subtitle">Customize your Rube Aura Checker experience</string>
+    <string name="settings_enable_haptics">Enable Haptics</string>
+    <string name="settings_enable_haptics_desc">Vibrate on scan completion and button presses</string>
+    <string name="settings_enable_sound">Enable Sound</string>
+    <string name="settings_enable_sound_desc">Play sound effects during scans</string>
+    <string name="settings_enable_animations">Enable Animations</string>
+    <string name="settings_enable_animations_desc">Animate scanner radar and transitions</string>
+    <string name="settings_accessibility">Accessibility</string>
+    <string name="settings_reduce_motion">Reduce Motion</string>
+    <string name="settings_reduce_motion_desc">Minimize animations and transitions</string>
+    <string name="settings_screen_reader_support">Screen Reader Support</string>
+    <string name="settings_screen_reader_desc">Enhance compatibility with TalkBack and other screen readers</string>
+    <string name="settings_reset_preferences">Reset Preferences</string>
+    <string name="settings_version_info">Version 1.0.0</string>
+</resources>

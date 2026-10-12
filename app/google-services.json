@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "497496817860",
+    "project_id": "rubeaura-88e81",
+    "storage_bucket": "rubeaura-88e81.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497496817860:android:9ddc4606601550ced84991",
+        "android_client_info": {
+          "package_name": "com.rubecoder.rubeaurachecker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmRYeLOGI_X58_RChojo77Hbm1uPBgfZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
