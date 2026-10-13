@@ -3,8 +3,6 @@ plugins {
     id("org.jetbrains.kotlin.android")
     id("org.jetbrains.kotlin.plugin.serialization")
     id("com.google.gms.google-services")
-    id("com.google.devtools.ksp") version "2.0.20-1.0.24"
-    id("androidx.compose.compiler") version "1.6.8"
 }
 
 android {
@@ -52,6 +50,10 @@ android {
     buildFeatures {
         compose = true
         buildConfig = true
+    }
+
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.5.14"
     }
 }
 
