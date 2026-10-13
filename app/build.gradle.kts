@@ -3,6 +3,7 @@ plugins {
     id("org.jetbrains.kotlin.android")
     id("org.jetbrains.kotlin.plugin.serialization")
     id("com.google.gms.google-services")
+    id("com.google.devtools.ksp") version "2.0.20-1.0.24"
 }
 
 android {
@@ -25,7 +26,7 @@ android {
         val supabaseTestMode = project.findProperty("SUPABASE_TEST_MODE") ?: "true"
         buildConfigField("String", "SUPABASE_URL", "\"$supabaseUrl\"")
         buildConfigField("String", "SUPABASE_ANON_KEY", "\"$supabaseAnonKey\"")
-        buildConfigField("boolean", "SUPABASE_TEST_MODE", "$supabaseTestMode".toBoolean())
+        buildConfigField("boolean", "SUPABASE_TEST_MODE", "$supabaseTestMode".toBoolean().toString())
     }
 
     buildTypes {
