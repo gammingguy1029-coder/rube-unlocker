@@ -24,10 +24,11 @@ jobs:
     - name: Setup Android SDK
       uses: android-actions/setup-android@v3
       with:
-        api-level: 34
-        build-tools-version: 34.0.0
-        # We don't need to install all packages, just the necessary ones for building
-        # The action will install the platform and build tools for the given api-level
+        packages: "platform-tools platforms;android-34 build-tools;34.0.0"
+        cmdline-tools-version: "latest"
+
+    - name: Accept Android SDK licenses
+      uses: android-actions/accept-android-sdk-licenses@v2
 
     - name: Make Gradlew executable
       run: chmod +x ./gradlew
