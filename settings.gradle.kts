@@ -7,7 +7,7 @@ pluginManagement {
     resolutionStrategy {
         eachPlugin {
             if (requested.id.id == "androidx.compose.compiler") {
-                useModule("androidx.compose.compiler:compose-compiler:${requested.version}")
+                useModule("androidx.compose.compiler:compose-compiler:1.6.8")
             }
         }
     }
