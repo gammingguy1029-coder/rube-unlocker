@@ -27,9 +27,6 @@ jobs:
         packages: "platform-tools platforms;android-34 build-tools;34.0.0"
         cmdline-tools-version: "latest"
 
-    - name: Accept Android SDK licenses
-      uses: android-actions/accept-android-sdk-licenses@v2
-
     - name: Make Gradlew executable
       run: chmod +x ./gradlew
 
